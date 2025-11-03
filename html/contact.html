@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <title>sungla</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" href="images/fevicon.png" type="image/gif" />
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+</head>
+<body class="main-layout position_head">
+    <div class="loader_bg">
+        <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+    </div>
+    <header>
+        <div class="header">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                        <div class="full">
+                            <div class="center-desk">
+                                <div class="logo">
+                                    <a href="index.html"><img src="images/logo.png" alt="#" /></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
+                    <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                        <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="container text-center" style="margin-top: 15px; margin-bottom: 50px;">
+                            <div class="collapse navbar-collapse" id="navbarsExample04">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item ">
+                                        <a class="nav-link" href="index.html">INICIO</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="about.html">ACERCA DE</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="glasses.html">NUESTROS PERFUMES</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="shop.html">FAVORITA</a>
+                                    </li>
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="contact.html">CONTACTENOS</a>
+                                    </li>
+                                    <!-- <li class="nav-item d_none sea_icon">
+                                        <a class="nav-link" href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i><i class="fa fa-search" aria-hidden="true"></i></a>
+                                    </li> -->
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="contact" class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <form id="request" class="main_form">
+                        <div class="row">
+                            <div class="col-md-12 ">
+                                <h3>Contact Us</h3>
+                            </div>
+                            <div class="col-md-12 ">
+                                <input class="contactus" placeholder="Nombre" type="text" name="Nombre"> 
+                            </div>
+                            <div class="col-md-12">
+                                <input class="contactus" placeholder="Numero De Telefono" type="text" name="Numero De Telefono"> 
+                            </div>
+                            <div class="col-md-12">
+                                <input class="contactus" placeholder="Email" type="email" name="Email">        
+                            </div>
+                            <div class="col-md-12">
+                                <input class="contactusmess" placeholder="Mensaje" type="text" name="Mensaje">
+                            </div>
+                            <div class="col-md-12">
+                                <button class="send_btn" type="submit">enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        
+        
+        <div class="container-fluid" style="margin-top: 70px;"> 
+            <div class="map_section" style="padding: 0;"> 
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15863.664426462744!2d-75.58622114999999!3d6.262502699999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428f525547071%3A0xf635832a514d0263!2sPlaza%20Botero!5e0!3m2!1ses!2sco!4v1689625345678!5m2!1ses!2sco" 
+                    width="100%" 
+                    height="600px" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <hr>
+    <hr>
+<div style="margin-top: 75px; margin-bottom: 50px;">
+    <div class="container text-center">
+        <h2 style="margin-bottom: 30px;">😂 Chiste Aleatorio (en Español)</h2>
+        <p id="spanish-joke" style="font-size: 1.2em; padding: 20px; border: 1px solid #ccc; border-radius: 5px; max-width: 600px; margin: 0 auto;"></p>
+        <button id="get-spanish-joke-btn" class="send_btn" style="background-color: #f7941d; margin-top: 20px;">¡Dame otro chiste!</button>
+    </div>
+</div>
+
+    
+
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 offset-md-2">
+                        <ul class="location_icon">
+                            <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a><br> Ubicacion</li>
+                            <li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a><br> +57 3006360182</li>
+                            <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a><br> demo@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p>© 2025 TOodos los derechos reservados. Diseño de Weimar Tuberquia<a href=""> </a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom.js"></script>
+    
+   <script>
+        // **********************************
+        // 1. CÓDIGO PARA ENVIAR A WHATSAPP
+        // **********************************
+        document.getElementById('request').addEventListener('submit', function(event) {
+            event.preventDefault(); 
+            // ... (Tu código de WhatsApp) ...
+            const miNumeroWhatsApp = '573006360182'; 
+            let nombre = document.querySelector('input[name="Nombre"]').value;
+            let telefono = document.querySelector('input[name="Numero De Telefono"]').value;
+            let email = document.querySelector('input[name="Email"]').value;
+            let mensaje_usuario = document.querySelector('input[name="Mensaje"]').value;
+            let texto = `*📝 Nuevo Contacto desde la Web 🚀*%0A%0A`;
+            texto += `*👤 Nombre:* ${nombre}%0A`;
+            texto += `*📱 Teléfono:* ${telefono}%0A`;
+            texto += `*📧 Email:* ${email}%0A`;
+            texto += `*💬 Mensaje:* ${mensaje_usuario}`;
+            let mensajeCodificado = encodeURIComponent(texto);
+            const urlWhatsApp = `https://wa.me/${miNumeroWhatsApp}?text=${mensajeCodificado}`;
+            window.open(urlWhatsApp, '_blank');
+        });
+
+        // **********************************************
+        // 2. CÓDIGO PARA CHISTES EN ESPAÑOL (CORREGIDO)
+        // **********************************************
+        function fetchSpanishJoke() {
+            const jokeDisplay = document.getElementById('spanish-joke');
+            
+            // Usamos fetch en lugar de $.ajax de jQuery
+            jokeDisplay.innerHTML = "Cargando chiste en español..."; 
+            
+            fetch('https://api.canchito-dev.com/joke/random')
+                .then(response => response.json()) 
+                .then(data => {
+                    let jokeText = "";
+                    if (data.joke) {
+                        jokeText = data.joke;
+                    } else if (data.question && data.answer) {
+                        jokeText = `${data.question}<br><br>_Respuesta: ${data.answer}_`;
+                    } else {
+                        jokeText = "No se pudo obtener un chiste válido.";
+                    }
+                    jokeDisplay.innerHTML = jokeText;
+                })
+                .catch(error => {
+                    console.error('Error fetching Spanish joke:', error);
+                    jokeDisplay.innerHTML = "Error al conectar con el servidor de chistes. Revisa la consola (F12).";
+                });
+        }
+
+        // Inicializar el chiste y el botón cuando la página está lista
+        document.addEventListener('DOMContentLoaded', () => {
+            // Llama a la función para cargar el primer chiste
+            fetchSpanishJoke(); 
+            
+            const button = document.getElementById('get-spanish-joke-btn');
+            if (button) {
+                button.addEventListener('click', fetchSpanishJoke);
+            }
+        });
+    </script>
